@@ -20,7 +20,7 @@ The aim of this project is to provide insights which may help decision making pr
 
 ### Exploration (EDA)
 
-This question is asked to explore which time of the year is preferred for movie releases and which months are more profitable in return, as well as to see the overall distribution of movies over the years. First visual shows figures only in the last ten years since most of the movies are concentrated in this period. 
+This question is asked to explore which time of the year is preferred for movie releases and which months are more profitable in return, as well as to see the overall distribution of movies over the years. 'tmdb_movies_gz' is chosen to search for movie distribution by months and years, the first part of the question, since it contains highest number of movies and release dates compared to other dataframes available. First visual shows figures only in the last ten years since most of the movies are concentrated in this period. 
 
 
 <img src="https://github.com/esraguzel/dsc-mod-1-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-02-16%20at%2018.45.53.png?raw=true" width="100%">
@@ -30,7 +30,7 @@ This question is asked to explore which time of the year is preferred for movie 
 <img src="https://github.com/esraguzel/dsc-mod-1-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-02-16%20at%2018.46.20.png?raw=true" width="100%">
 
 
-For the second part of the question Worldwide and Domestic ROI ratio calculated to show each movie's profitability by months. During grouping the ROI ratio by months, the `mean ()` function is used instead of `sum ()` to reach unbiased results. 
+For the second part of the question  'tn_movie_budgets_gz' dataframe is used since it already has release dates and production budget, domestic gross, worldwide gross. Worldwide and Domestic ROI ratio calculated to show each movie's profitability by months. During grouping the ROI ratio by months, the `mean ()` function is used instead of `sum ()` to reach unbiased results. 
 
 <img src="https://github.com/esraguzel/dsc-mod-1-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-02-16%20at%2018.47.04.png?raw=true" width="100%">
 
@@ -61,7 +61,7 @@ Distribution of domestic ROI ratio, production budget, domestic gross and worldw
 
 ### Exploration (EDA)
 
-The first heatmap below analyze the correlation between production budget, domestic gross, worldwide gross, domestic ROI, worldwide ROI, vote average and popularity. 
+The two datasets used at the first question are merged to explore the second question. The first heatmap below analyze the correlation between production budget, domestic gross, worldwide gross, domestic ROI, worldwide ROI, vote average and popularity. 
 
 During exploration some movies with 0 domestic and worldwide gross are noticed and treated as outliers. The second heatmap excludes those data aiming to observe a change in correlation values. 
 
@@ -101,7 +101,7 @@ There is not a significant linear relation between popularity and vote_average.
 
 ### Exploration (EDA)
 
-For most of the investors and new companies at the movie industry, it would be helpful to search which genre is more profitable when choosing projects to invest. Also, the top genres are explored to gain insight about whether the genres returning more profit and popular genres are consistent with each other.
+To start with 'imdb_title_basics_gz' is chosen to work on since it contains high number of movies and the genres together. Then, it merged with 'tn_movie_budgets_gz' to unify all the necessary values in one dataframe. Also, the top genres are explored to gain insight about whether the genres returning more profit and popular genres are consistent with each other.
 
 <img src="https://github.com/esraguzel/dsc-mod-1-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-02-16%20at%2019.01.36.png?raw=true" width="100%">
 
@@ -112,9 +112,9 @@ For most of the investors and new companies at the movie industry, it would be h
 
 #### Findings
 
-- top 3 genres in terms of Worldwide ROI ratio are mystery, horror and thriller while on average reality-tv genre returns loss,
-- top 3 genres in terms of Domestic ROI ratio are mystery, horror and sport while reality-TV, news, western and war returns loss,
-- top genres produced are drama, comedy, action and thriller.
+- Top 3 genres in terms of Worldwide ROI ratio are mystery, horror and thriller while on average reality-tv genre returns loss,
+- Top 3 genres in terms of Domestic ROI ratio are mystery, horror and sport while reality-TV, news, western and war returns loss,
+- Top genres produced are drama, comedy, action and thriller.
 
 #### Recommendations
 
