@@ -1,4 +1,4 @@
-# A Guideline The Movie Industry 
+# A Guideline for the Movie Industry 
 
 ## Goals and Overview
 
