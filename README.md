@@ -81,7 +81,7 @@ There is positive and significant correlation between:
  - popularity and production budget, domestic gross and worldwide gross,  
  - ROI worldwide and ROI domestic.
  
-There is not a significant linear relation between popularity and vote_average.
+There is weak linear relation between popularity and vote average.
 
 
 #### Recommendations
@@ -89,10 +89,12 @@ There is not a significant linear relation between popularity and vote_average.
 - The interaction and correlation between multiple variables could reveal some hidden insights.
 
 
+Different kind of analyses could be done over the variables to discover new relations between them.
+
 
 #### Next steps
 
-- Further analysis on larger datasets needed to reach more concrete insights.
+- Further analysis as well as multi-variate regression analysis on larger datasets are needed to reach more concrete insights.
 
 
 
@@ -124,4 +126,5 @@ To start with 'imdb_title_basics_gz' is chosen to work on since it contains high
 
 #### Next Steps
 
-- Further analysis as well as multi-variate regression analysis on larger datasets needed to reach more concrete insights.
+- Further analysis on consumer behavior could be conducted to gain more insights. 
+
