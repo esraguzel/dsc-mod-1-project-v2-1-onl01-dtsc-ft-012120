@@ -89,7 +89,7 @@ There is weak linear relation between popularity and vote average.
 - The interaction and correlation between multiple variables could reveal some hidden insights.
 
 
-Different kind of analyses could be done over the variables to discover new relations between them.
+
 
 
 #### Next steps
